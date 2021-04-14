@@ -6,7 +6,6 @@ import sys
 
 def genTree(args):
     path = args.d
-    print(path)
     text = ""
 
     for root, dirs, files in os.walk(path):
